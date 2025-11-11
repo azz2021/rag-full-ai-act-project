@@ -1,0 +1,7 @@
+gradio==4.44.0
+faiss-cpu
+sentence-transformers
+transformers
+torch
+pandas
+numpy

@@ -1,0 +1,115 @@
+idx,chunk_id,doc,page,preview
+0,eu_0_0,EU_AI_Act,-1,High-level summary of the AI Act
+1,eu_1_0,EU_AI_Act,-1,Updated on 30 May in accordance with the Corrigendum version of the AI Act.
+2,eu_2_0,EU_AI_Act,-1,"In this article we provide you with a high-level summary of the AI Act, selecting the parts which are most likely to be relevant to you rega"
+3,eu_3_0,EU_AI_Act,-1,"To explore the full text of the AI Act yourself, use our AI Act Explorer. Alternatively, if you want to know which parts of the text are mos"
+4,eu_4_0,EU_AI_Act,-1,The AI Act classifies AI according to its risk:
+5,eu_5_0,EU_AI_Act,-1,Unacceptable risk is prohibited (e.g. social scoring systems and manipulative AI).
+6,eu_6_0,EU_AI_Act,-1,"Most of the text addresses high-risk AI systems, which are regulated."
+7,eu_7_0,EU_AI_Act,-1,"A smaller section handles limited risk AI systems, subject to lighter transparency obligations: developers and deployers must ensure that en"
+8,eu_8_0,EU_AI_Act,-1,"Minimal risk is unregulated (including the majority of AI applications currently available on the EU single market, such as AI enabled video"
+9,eu_9_0,EU_AI_Act,-1,The majority of obligations fall on providers (developers) of high-risk AI systems.
+10,eu_10_0,EU_AI_Act,-1,"Those that intend to place on the market or put into service high-risk AI systems in the EU, regardless of whether they are based in the EU "
+11,eu_11_0,EU_AI_Act,-1,And also third country providers where the high risk AI system's output is used in the EU.
+12,eu_12_0,EU_AI_Act,-1,"Users are natural or legal persons that deploy an AI system in a professional capacity, not affected end-users."
+13,eu_13_0,EU_AI_Act,-1,"Users (deployers) of high-risk AI systems have some obligations, though less than providers (developers)."
+14,eu_14_0,EU_AI_Act,-1,"This applies to users located in the EU, and third country users where the AI system's output is used in the EU."
+15,eu_15_0,EU_AI_Act,-1,General purpose AI (GPAI):
+16,eu_16_0,EU_AI_Act,-1,"All GPAI model providers must provide technical documentation, instructions for use, comply with the Copyright Directive, and publish a summ"
+17,eu_17_0,EU_AI_Act,-1,"Free and open licence GPAI model providers only need to comply with copyright and publish the training data summary, unless they present a s"
+18,eu_18_0,EU_AI_Act,-1,"All providers of GPAI models that present a systemic risk - open or closed - must also conduct model evaluations, adversarial testing, track"
+19,eu_19_0,EU_AI_Act,-1,"Prohibited AI systems (Chapter II, Art. 5)"
+20,eu_20_0,EU_AI_Act,-1,The following types of AI system are 'Prohibited' according to the AI Act.
+21,eu_21_0,EU_AI_Act,-1,"deploying subliminal, manipulative, or deceptive techniques to distort behaviour and impair informed decision-making, causing significant ha"
+22,eu_22_0,EU_AI_Act,-1,"exploiting vulnerabilities related to age, disability, or socio-economic circumstances to distort behaviour, causing significant harm."
+23,eu_23_0,EU_AI_Act,-1,"biometric categorisation systems inferring sensitive attributes (race, political opinions, trade union membership, religious or philosophica"
+24,eu_24_0,EU_AI_Act,-1,"social scoring, i.e., evaluating or classifying individuals or groups based on social behaviour or personal traits, causing detrimental or u"
+25,eu_25_0,EU_AI_Act,-1,"assessing the risk of an individual committing criminal offenses solely based on profiling or personality traits, except when used to augmen"
+26,eu_26_0,EU_AI_Act,-1,compiling facial recognition databases by untargeted scraping of facial images from the internet or CCTV footage.
+27,eu_27_0,EU_AI_Act,-1,"inferring emotions in workplaces or educational institutions, except for medical or safety reasons."
+28,eu_28_0,EU_AI_Act,-1,"'real-time' remote biometric identification (RBI) in publicly accessible spaces for law enforcement, except when:"
+29,eu_29_0,EU_AI_Act,-1,"searching for missing persons, abduction victims, and people who have been human trafficked or sexually exploited;"
+30,eu_30_0,EU_AI_Act,-1,"preventing substantial and imminent threat to life, or foreseeable terrorist attack; or"
+31,eu_31_0,EU_AI_Act,-1,"identifying suspects in serious crimes (e.g., murder, rape, armed robbery, narcotic and illegal weapons trafficking, organised crime, and en"
+32,eu_32_0,EU_AI_Act,-1,Notes on remote biometric identification:
+33,eu_33_0,EU_AI_Act,-1,Using AI-enabled real-time RBI is only allowed when not using the tool would cause considerable harm and must account for affected persons' 
+34,eu_34_0,EU_AI_Act,-1,"Before deployment, police must complete a fundamental rights impact assessment and register the system in the EU database, though, in duly j"
+35,eu_35_0,EU_AI_Act,-1,"Before deployment, they also must obtain authorisation from a judicial authority or independent administrative authority[1], though, in duly"
+36,eu_36_0,EU_AI_Act,-1,"| [1] Independent administrative authorities may be subject to greater political influence than judicial authorities (Hacker, 2024)."
+37,eu_37_0,EU_AI_Act,-1,High risk AI systems (Chapter III)
+38,eu_38_0,EU_AI_Act,-1,Some AI systems are considered 'High risk' under the AI Act. Providers of those systems will be subject to additional requirements.
+39,eu_39_0,EU_AI_Act,-1,Classification rules for high-risk AI systems (Art. 6)
+40,eu_40_0,EU_AI_Act,-1,High risk AI systems are those:
+41,eu_41_0,EU_AI_Act,-1,used as a safety component or a product covered by EU laws in Annex I AND required to undergo a third-party conformity assessment under thos
+42,eu_42_0,EU_AI_Act,-1,"those under Annex III use cases (below), except if:"
+43,eu_43_0,EU_AI_Act,-1,the AI system performs a narrow procedural task;
+44,eu_44_0,EU_AI_Act,-1,improves the result of a previously completed human activity;
+45,eu_45_0,EU_AI_Act,-1,detects decision-making patterns or deviations from prior decision-making patterns and is not meant to replace or influence the previously c
+46,eu_46_0,EU_AI_Act,-1,performs a preparatory task to an assessment relevant for the purpose of the use cases listed in Annex III.
+47,eu_47_0,EU_AI_Act,-1,"AI systems are always considered high-risk if it profiles individuals, i.e. automated processing of personal data to assess various aspects "
+48,eu_48_0,EU_AI_Act,-1,Providers whose AI system falls under the use cases in Annex III but believes it is not high-risk must document such an assessment before pl
+49,eu_49_0,EU_AI_Act,-1,Requirements for providers of high-risk AI systems (Art. 8-17)
+50,eu_50_0,EU_AI_Act,-1,High risk AI providers must:
+51,eu_51_0,EU_AI_Act,-1,Establish a risk management system throughout the high risk AI system's lifecycle;
+52,eu_52_0,EU_AI_Act,-1,"Conduct data governance, ensuring that training, validation and testing datasets are relevant, sufficiently representative and, to the best "
+53,eu_53_0,EU_AI_Act,-1,Draw up technical documentation to demonstrate compliance and provide authorities with the information to assess that compliance.
+54,eu_54_0,EU_AI_Act,-1,Design their high risk AI system for record-keeping to enable it to automatically record events relevant for identifying national level risk
+55,eu_55_0,EU_AI_Act,-1,Provide instructions for use to downstream deployers to enable the latter's compliance.
+56,eu_56_0,EU_AI_Act,-1,Design their high risk AI system to allow deployers to implement human oversight.
+57,eu_57_0,EU_AI_Act,-1,"Design their high risk AI system to achieve appropriate levels of accuracy, robustness, and cybersecurity."
+58,eu_58_0,EU_AI_Act,-1,Establish a quality management system to ensure compliance.
+59,eu_59_0,EU_AI_Act,-1,General purpose AI (GPAI)
+60,eu_60_0,EU_AI_Act,-1,"GPAI model means an AI model, including when trained with a large amount of data using self-supervision at scale, that displays significant "
+61,eu_61_0,EU_AI_Act,-1,"GPAI system means an AI system which is based on a general purpose AI model, that has the capability to serve a variety of purposes, both fo"
+62,eu_62_0,EU_AI_Act,-1,GPAI systems may be used as high risk AI systems or integrated into them. GPAI system providers should cooperate with such high risk AI syst
+63,eu_63_0,EU_AI_Act,-1,All providers of GPAI models must:
+64,eu_64_0,EU_AI_Act,-1,"Draw up technical documentation, including training and testing process and evaluation results."
+65,eu_65_0,EU_AI_Act,-1,Draw up information and documentation to supply to downstream providers that intend to integrate the GPAI model into their own AI system in 
+66,eu_66_0,EU_AI_Act,-1,Establish a policy to respect the Copyright Directive.
+67,eu_67_0,EU_AI_Act,-1,Publish a sufficiently detailed summary about the content used for training the GPAI model.
+68,eu_68_0,EU_AI_Act,-1,"Free and open licence GPAI models - whose parameters, including weights, model architecture and model usage are publicly available, allowing"
+69,eu_69_0,EU_AI_Act,-1,GPAI models present systemic risks when the cumulative amount of compute used for its training is greater than 1025 floating point operation
+70,eu_70_0,EU_AI_Act,-1,"In addition to the four obligations above, providers of GPAI models with systemic risk must also:"
+71,eu_71_0,EU_AI_Act,-1,"Perform model evaluations, including conducting and documenting adversarial testing to identify and mitigate systemic risk."
+72,eu_72_0,EU_AI_Act,-1,"Assess and mitigate possible systemic risks, including their sources."
+73,eu_73_0,EU_AI_Act,-1,"Track, document and report serious incidents and possible corrective measures to the AI Office and relevant national competent authorities w"
+74,eu_74_0,EU_AI_Act,-1,Ensure an adequate level of cybersecurity protection.
+75,eu_75_0,EU_AI_Act,-1,All GPAI model providers may demonstrate compliance with their obligations if they voluntarily adhere to a code of practice until European h
+76,eu_76_0,EU_AI_Act,-1,Will account for international approaches.
+77,eu_77_0,EU_AI_Act,-1,"Will cover but not necessarily limited to the above obligations, particularly the relevant information to include in technical documentation"
+78,eu_78_0,EU_AI_Act,-1,"AI Office may invite GPAI model providers, relevant national competent authorities to participate in drawing up the codes, while civil socie"
+79,eu_79_0,EU_AI_Act,-1,How will the AI Act be implemented?
+80,eu_80_0,EU_AI_Act,-1,"The AI Office will be established, sitting within the Commission, to monitor the effective implementation and compliance of GPAI model provi"
+81,eu_81_0,EU_AI_Act,-1,Downstream providers can lodge a complaint regarding the upstream providers infringement to the AI Office.
+82,eu_82_0,EU_AI_Act,-1,The AI Office may conduct evaluations of the GPAI model to:
+83,eu_83_0,EU_AI_Act,-1,assess compliance where the information gathered under its powers to request information is insufficient.
+84,eu_84_0,EU_AI_Act,-1,"Investigate systemic risks, particularly following a qualified report from the scientific panel of independent experts."
+85,eu_85_0,EU_AI_Act,-1,"After entry into force, the AI Act will apply by the following deadlines:"
+86,eu_86_0,EU_AI_Act,-1,6 months for prohibited AI systems.
+87,eu_87_0,EU_AI_Act,-1,24 months for high risk AI systems under Annex III.
+88,eu_88_0,EU_AI_Act,-1,36 months for high risk AI systems under Annex I.
+89,tr_0_0,Transformer,0,"Provided proper attribution is provided, Google hereby grants permission to reproduce the tables and figures in this paper solely for use in"
+90,tr_0_1,Transformer,0," tuned and evaluated countless model variants in our original codebase and tensor2tensor. Llion also experimented with novel model variants,"
+91,tr_1_0,Transformer,1,"1 Introduction Recurrent neural networks, long short-term memory [ 13] and gated recurrent [ 7] neural networks in particular, have been fir"
+92,tr_1_1,Transformer,1," operations, albeit at the cost of reduced effective resolution due to averaging attention-weighted positions, an effect we counteract with "
+93,tr_2_0,Transformer,2,Figure 1: The Transformer - model architecture. The Transformer follows this overall architecture using stacked self-attention and point-wis
+94,tr_3_0,Transformer,3,Scaled Dot-Product Attention Multi-Head Attention Figure 2: (left) Scaled Dot-Product Attention. (right) Multi-Head Attention consists of se
+95,tr_4_0,Transformer,4,"output values. These are concatenated and once again projected, resulting in the final values, as depicted in Figure 2. Multi-head attention"
+96,tr_4_1,Transformer,4, to each position separately and identically. This consists of two linear transformations with a ReLU activation in between. FFN( x) = max(0
+97,tr_5_0,Transformer,5,"Table 1: Maximum path lengths, per-layer complexity and minimum number of sequential operations for different layer types. nis the sequence "
+98,tr_5_1,Transformer,5," of equal length (z1, ..., z n), with xi, ziRd, such as a hidden layer in a typical sequence transduction encoder or decoder. Motivating our"
+99,tr_6_0,Transformer,6,"length nis smaller than the representation dimensionality d, which is most often the case with sentence representations used by state-of-the"
+100,tr_6_1,Transformer,6, and Schedule We trained our models on one machine with 8 NVIDIA P100 GPUs. For our base models using the hyperparameters described througho
+101,tr_7_0,Transformer,7,Table 2: The Transformer achieves better BLEU scores than previous state-of-the-art models on the English-to-German and English-to-French ne
+102,tr_7_1,Transformer,7,.4. The configuration of this model is listed in the bottom line of Table 3. Training took 3.5days on 8P100 GPUs. Even our base model surpas
+103,tr_8_0,Transformer,8,Table 3: Variations on the Transformer architecture. Unlisted values are identical to those of the base model. All metrics are on the Englis
+104,tr_8_1,Transformer,8,"9 BLEU worse than the best setting, quality also drops off with too many heads. In Table 3 rows (B), we observe that reducing the attention "
+105,tr_9_0,Transformer,9,Table 4: The Transformer generalizes well to English constituency parsing (Results are on Section 23 of WSJ) Parser Training WSJ 23 F1 Vinya
+106,tr_9_1,Transformer,9, of the art. In the former task our best model outperforms even all previously reported ensembles. We are excited about the future of attent
+107,tr_10_0,Transformer,10,"[5]Kyunghyun Cho, Bart van Merrienboer, Caglar Gulcehre, Fethi Bougares, Holger Schwenk, and Yoshua Bengio. Learning phrase representations "
+108,tr_10_1,Transformer,10," 2009. [15] Rafal Jozefowicz, Oriol Vinyals, Mike Schuster, Noam Shazeer, and Yonghui Wu. Exploring the limits of language modeling. arXiv p"
+109,tr_11_0,Transformer,11,"[25] Mitchell P Marcus, Mary Ann Marcinkiewicz, and Beatrice Santorini. Building a large annotated corpus of english: The penn treebank. Com"
+110,tr_11_1,Transformer,11," , 15(1):1929-1958, 2014. [34] Sainbayar Sukhbaatar, Arthur Szlam, Jason Weston, and Rob Fergus. End-to-end memory networks. In C. Cortes, N"
+111,tr_12_0,Transformer,12,Attention Visualizations Input-Input Layer5 It is in this spirit that a majority of American governments have passed new laws since 2009 mak
+112,tr_13_0,Transformer,13,"Input-Input Layer5 The Law will never be perfect , but its application should be just - this is what we are missing , in my opinion . <EOS> "
+113,tr_14_0,Transformer,14,"Input-Input Layer5 The Law will never be perfect , but its application should be just - this is what we are missing , in my opinion . <EOS> "

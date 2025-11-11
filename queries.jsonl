@@ -1,0 +1,10 @@
+{"id": "q01", "doc_hint": "EU_AI_Act", "type": "list", "query": "What are the AI risk categories defined by the EU AI Act?", "expected_keywords": ["unacceptable", "high-risk", "limited-risk", "minimal-risk"]}
+{"id": "q02", "doc_hint": "EU_AI_Act", "type": "list", "query": "List the prohibited AI practices under the EU AI Act.", "expected_keywords": ["prohibited"]}
+{"id": "q03", "doc_hint": "EU_AI_Act", "type": "obligations", "query": "Name three core obligations for providers of high-risk AI systems."}
+{"id": "q04", "doc_hint": "EU_AI_Act", "type": "timeline", "query": "When do the obligations for high-risk AI systems start to apply?"}
+{"id": "q05", "doc_hint": "EU_AI_Act", "type": "definition", "query": "What qualifies a GPAI model as creating systemic risk under the Act?"}
+{"id": "q06", "doc_hint": "Transformer", "type": "why", "query": "Why does the Transformer remove recurrence and convolution?"}
+{"id": "q07", "doc_hint": "Transformer", "type": "definition", "query": "Explain scaled dot-product attention.", "expected_keywords": ["softmax", "query", "key", "value", "dot-product", "scale"]}
+{"id": "q08", "doc_hint": "Transformer", "type": "mechanism", "query": "What is multi-head attention and why is it useful?"}
+{"id": "q09", "doc_hint": "Transformer", "type": "mechanism", "query": "How do sinusoidal positional encodings work?"}
+{"id": "q10", "doc_hint": "Transformer", "type": "numbers", "query": "State the base model’s typical hyperparameters (e.g., d_model, heads)."}

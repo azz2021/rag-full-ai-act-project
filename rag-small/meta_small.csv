@@ -1,0 +1,23 @@
+idx,chunk_id,doc,page,preview
+38,eu_38_0,EU_AI_Act,-1,Some AI systems are considered 'High risk' under the AI Act. Providers of those systems will be subject to additional requirements.
+37,eu_37_0,EU_AI_Act,-1,High risk AI systems (Chapter III)
+10,eu_10_0,EU_AI_Act,-1,"Those that intend to place on the market or put into service high-risk AI systems in the EU, regardless of whether they are based in the EU "
+51,eu_51_0,EU_AI_Act,-1,Establish a risk management system throughout the high risk AI system's lifecycle;
+40,eu_40_0,EU_AI_Act,-1,High risk AI systems are those:
+49,eu_49_0,EU_AI_Act,-1,Requirements for providers of high-risk AI systems (Art. 8-17)
+9,eu_9_0,EU_AI_Act,-1,The majority of obligations fall on providers (developers) of high-risk AI systems.
+4,eu_4_0,EU_AI_Act,-1,The AI Act classifies AI according to its risk:
+87,eu_87_0,EU_AI_Act,-1,24 months for high risk AI systems under Annex III.
+88,eu_88_0,EU_AI_Act,-1,36 months for high risk AI systems under Annex I.
+50,eu_50_0,EU_AI_Act,-1,High risk AI providers must:
+13,eu_13_0,EU_AI_Act,-1,"Users (deployers) of high-risk AI systems have some obligations, though less than providers (developers)."
+11,eu_11_0,EU_AI_Act,-1,And also third country providers where the high risk AI system's output is used in the EU.
+48,eu_48_0,EU_AI_Act,-1,Providers whose AI system falls under the use cases in Annex III but believes it is not high-risk must document such an assessment before pl
+0,eu_0_0,EU_AI_Act,-1,High-level summary of the AI Act
+39,eu_39_0,EU_AI_Act,-1,Classification rules for high-risk AI systems (Art. 6)
+7,eu_7_0,EU_AI_Act,-1,"A smaller section handles limited risk AI systems, subject to lighter transparency obligations: developers and deployers must ensure that en"
+6,eu_6_0,EU_AI_Act,-1,"Most of the text addresses high-risk AI systems, which are regulated."
+8,eu_8_0,EU_AI_Act,-1,"Minimal risk is unregulated (including the majority of AI applications currently available on the EU single market, such as AI enabled video"
+79,eu_79_0,EU_AI_Act,-1,How will the AI Act be implemented?
+57,eu_57_0,EU_AI_Act,-1,"Design their high risk AI system to achieve appropriate levels of accuracy, robustness, and cybersecurity."
+54,eu_54_0,EU_AI_Act,-1,Design their high risk AI system for record-keeping to enable it to automatically record events relevant for identifying national level risk
