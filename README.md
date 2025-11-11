@@ -101,31 +101,21 @@ Expected Output:
 
 2) Asking Questions (Examples)
 
-A) EU AI Act — Obligations for High-Risk Systems
-
-curl -X POST "https://rag-small-642824789177.europe-west1.run.app/ask" \
-  -H "Content-Type: application/json" \
-  -d '{"query":"What are the EU AI Act obligations for high-risk systems?","k":5}'
-
-B) EU AI Act — Prohibited Practices
-
-curl -X POST "https://rag-small-642824789177.europe-west1.run.app/ask" \
-  -H "Content-Type: application/json" \
-  -d '{"query":"What are the EU AI Act obligations for high-risk systems?","k":5}'
-
-C) Transformer Paper — Scaled Dot-Product Attention
+A) EU AI Act Query
 
 curl -X POST "https://rag-small-642824789177.europe-west1.run.app/ask" \
   -H "Content-Type: application/json" \
   -d '{"query":"List the prohibited AI practices under the EU AI Act.","k":5}'
 
-D) Transformer Paper — Removing Recurrence and Convolution
+
+B)Transformer Paper Query
 
 curl -X POST "https://rag-small-642824789177.europe-west1.run.app/ask" \
   -H "Content-Type: application/json" \
   -d '{"query":"Explain scaled dot-product attention.","k":5}'
 
-   
+  
+
 
 
 
