@@ -111,7 +111,7 @@ A) EU AI Act Query
 
 curl -X POST "https://rag-small-642824789177.europe-west1.run.app/ask" \
   -H "Content-Type: application/json" \
-  -d '{"query":"Explain scaled dot-product attention.","k":5}'
+  -d '{"query":"List the prohibited AI practices under the EU AI Act.","k":5}'
 
 
 B)Transformer Paper Query
