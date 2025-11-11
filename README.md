@@ -82,7 +82,7 @@ To address this, an alternative lightweight solution was implemented. A preproce
 This approach demonstrated a practical trade-off between system completeness and deployability—maintaining meaningful retrieval performance while fitting within free-tier resource constraints.
 
 
-Task 6. Application
+ Application
 ---------------------------------------------
 
 The Working Application link:
