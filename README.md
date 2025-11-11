@@ -91,7 +91,12 @@ https://rag-small-642824789177.europe-west1.run.app
 
 Test the Application ( Mac Terminal)
 
-1) Health Check
+1) Get your service URL
+
+   gcloud run services list --region europe-west1
+
+
+2) Health Check
 
 curl "https://rag-small-642824789177.europe-west1.run.app"
 
@@ -99,7 +104,8 @@ Expected Output:
 
 {"ok": true, "message": "POST /ask with {query, k}"}
 
-2) Asking Questions (Examples)
+
+3) Asking Questions (Examples)
 
 A) EU AI Act Query
 
