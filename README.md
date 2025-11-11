@@ -116,11 +116,7 @@ curl -X POST "https://rag-small-642824789177.europe-west1.run.app/ask" \
 
 
 
-
-
-
-
-
+Open README and then copy & paste the commands in terminal. 
 
 
 
