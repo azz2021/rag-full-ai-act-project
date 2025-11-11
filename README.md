@@ -3,7 +3,7 @@ This project builds a scalable Retrieval-Augmented Generation (RAG) system that 
 
 Task 1. Data Preparation
 ---------------------------------------
-
+The uploaded files related to this task are: index.faiss, chunks.jsonl, meta.csv, embeddings.memmap
 
 Two core documents were used — the EU AI Act summary (DOCX) and “Attention Is All You Need” (PDF) — representing both regulatory and technical text.
 
@@ -19,7 +19,7 @@ Metadata: Each chunk includes doc, chunk_id, and page for traceable retrieval.
  
 Task 2. Test Queries
 ---------------------------------------
-
+The uploaded files related to this task are: rationale.md, queries.jsonl
 
 A balanced set of ten test queries was created — five from the EU AI Act and five from the Transformer paper — to evaluate the system’s ability to handle both regulatory and technical language.
 The queries span definitions, mechanisms, timelines, lists, and factual details, ensuring diversity in linguistic style and retrieval complexity. This mix tests the RAG system’s robustness across short factual responses (e.g., hyperparameters) and multi-sentence conceptual explanations (e.g., attention mechanisms).
@@ -27,6 +27,7 @@ All queries were designed to have verifiable answers traceable to the original d
 
 Task 3. Retrieval Component
 -----------------------------------------
+The uploaded file related to this task is: generation_answers.csv
 
 Methods implemented
 
@@ -62,8 +63,9 @@ In this stage, the system combines the retrieved document chunks with the user q
 
 
 
-Task 5. Generation Component
+Task 5. Evaluation
 ---------------------------------------------
+The uploaded files related to this task are: eval_results.csv, eval_summary.csv
 
 Evaluation. We evaluated three criteria on a fixed query set: (1) Retrieval relevance using Recall@k and MRR based on each query’s doc_hint; (2) Answer accuracy via keyword checks (expected_keywords) in the model’s answer; and (3) Groundedness / hallucination by verifying that any claimed keywords also appear in the retrieval context, or that the model correctly says “I don’t know based on the provided context” when unsupported. We report per-query results and overall averages (Recall@5, MRR, Accuracy, Groundedness).
 
@@ -71,6 +73,7 @@ Evaluation. We evaluated three criteria on a fixed query set: (1) Retrieval rele
 
 Task 6. Deployment
 ---------------------------------------------
+The uploaded files related to this task are inculeded in folder rag-small and the filse included in.
 
 The goal of this stage was to deploy the full RAG system on Google Cloud Run for real-time inference. The initial deployment using the complete dataset encountered a major constraint: the container exceeded Cloud Run’s free-tier memory and time limits, resulting in repeated “deadline exceeded” and RAM exhaustion errors during the build and startup phases. This issue arose because loading the full FAISS index and sentence-transformer model simultaneously required more memory and compute than available within the standard (2 GiB / 15 min) limits.
 
