@@ -81,3 +81,58 @@ To address this, an alternative lightweight solution was implemented. A preproce
 
 This approach demonstrated a practical trade-off between system completeness and deployability—maintaining meaningful retrieval performance while fitting within free-tier resource constraints.
 
+
+Task 6. Application
+---------------------------------------------
+
+The Working Application link:
+
+https://rag-small-642824789177.europe-west1.run.app
+
+Test the Application ( Mac Terminal)
+
+1) Health Check
+
+curl "https://rag-small-642824789177.europe-west1.run.app"
+
+Expected Output:
+
+{"ok": true, "message": "POST /ask with {query, k}"}
+
+2) Asking Questions (Examples)
+
+A) EU AI Act — Obligations for High-Risk Systems
+
+curl -X POST "https://rag-small-642824789177.europe-west1.run.app/ask" \
+  -H "Content-Type: application/json" \
+  -d '{"query":"What are the EU AI Act obligations for high-risk systems?","k":5}'
+
+B) EU AI Act — Prohibited Practices
+
+curl -X POST "https://rag-small-642824789177.europe-west1.run.app/ask" \
+  -H "Content-Type: application/json" \
+  -d '{"query":"What are the EU AI Act obligations for high-risk systems?","k":5}'
+
+C) Transformer Paper — Scaled Dot-Product Attention
+
+curl -X POST "https://rag-small-642824789177.europe-west1.run.app/ask" \
+  -H "Content-Type: application/json" \
+  -d '{"query":"List the prohibited AI practices under the EU AI Act.","k":5}'
+
+D) Transformer Paper — Removing Recurrence and Convolution
+
+curl -X POST "https://rag-small-642824789177.europe-west1.run.app/ask" \
+  -H "Content-Type: application/json" \
+  -d '{"query":"Explain scaled dot-product attention.","k":5}'
+
+   
+
+
+
+
+
+
+
+
+
+
